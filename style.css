@@ -1,0 +1,72 @@
+body{
+    min-height: 100vh;
+    background-color:black;
+}
+.container{
+    width: 1190px;
+    height: 100%;
+    background-color:#0d1a2d;
+    inset: 0;
+    position: fixed;
+    margin: auto;
+}
+.NFT_Preview-Card{
+    max-width: 330px;
+    min-height: 540px;
+    background-color: #012d54;
+    border-radius: 8px;
+    margin-left: 450px;
+    margin-top: 90px;
+    box-shadow: 2px 2px  2px  #56174f, -2px -2px 2px #56174f, 3px 3px 3px 5px  #04285f,-3px -3px 3px 5px  #04285f;
+    
+}
+.NFT_Preview-Card img{
+  width: 280px;
+   height: 260px;
+   position:absolute;
+   margin: auto;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-top-left-radius: 36px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 12px;
+    
+}
+.NFT_Preview-Card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    padding-top: 290px;
+    padding-left: 30px;
+}
+
+.part-1 , .part-2{
+    display: block;
+    color: #849cbb;
+    font-family: arial;
+    padding-left :30px; ;
+}
+
+.NFT_Preview-Card pre img{
+    width: 15px;
+    height: 15px;
+}
+.NFT_Preview-Card pre{
+    display: inline;
+    color: #00fef8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px
+}
+
+hr{
+    margin-left: 27px;
+    margin-right: 30px;
+}
+a{
+    color: #00fef8;
+}
+a:hover{
+    color:  aliceblue;
+}
+
+
